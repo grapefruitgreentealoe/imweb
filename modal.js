@@ -1,4 +1,3 @@
-// Get the modal
 
 // Get the <span> element that closes the modal
 const span = document.querySelector(".modal-content .close");

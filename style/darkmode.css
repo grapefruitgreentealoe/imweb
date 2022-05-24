@@ -1,0 +1,13 @@
+.navbar-dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.postcards-dark-mode {
+  background-color: rgb(77, 76, 76);
+  color: white;
+}
+
+.postcard-dark-mode {
+  background-color: rgb(195, 192, 192);
+}
