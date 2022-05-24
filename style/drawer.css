@@ -13,7 +13,7 @@
   position: fixed; /* Stay in place */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: rgb(255, 255, 255); /* Black*/
+  background-color: lightgrey;
   color: black;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
@@ -30,8 +30,6 @@
   transition: 0.3s;
 }
 
-
-
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   text-decoration: underline;
@@ -47,7 +45,6 @@
   color: inherit;
   cursor: pointer;
 }
-
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
