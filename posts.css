@@ -1,0 +1,53 @@
+.postcards {
+  background-color: lightgrey;
+  padding: 10rem 5vw;
+  z-index: -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 5rem 5vw;
+  text-overflow: ellipsis;
+}
+.postcard {
+  position: relative;
+  width: 80%;
+  min-height: 20em;
+  background-color: white;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  text-overflow: ellipsis;
+}
+.postimg {
+  background-color: gray;
+  width: 100%;
+  height: 7em;
+}
+.title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .postcards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .postcard {
+    width: 100%;
+  }
+  .content {
+    -webkit-line-clamp: 4;
+  }
+}

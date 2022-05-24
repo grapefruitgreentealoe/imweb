@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>imweb_eunsun</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="drawer.css" />
+    <link rel="stylesheet" href="posts.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <link rel="stylesheet" href="switch.css" />
+  </head>
+  <body>
+    <button id="myBtn" title="Go to top">Top</button>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Logo</div>
+      <!-- NAVIGATION MENU -->
+      <div class="navbar-right">
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li>
+              <a href="#"><h3>menu1</h3></a>
+            </li>
+            <li>
+              <a href="#"><h3>menu2</h3></a>
+            </li>
+            <li>
+              <a href="#"><h3>menu3</h3></a>
+            </li>
+          </div>
+        </ul>
+        <div class="switch">
+          <label>
+            <input type="checkbox" checked />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </nav>
+    <div class="sidenav_background"></div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn">&times;</a>
+      <li>
+        <a href="#"><h3>menu1</h3></a>
+      </li>
+      <li>
+        <a href="#"><h3>menu2</h3></a>
+      </li>
+      <li>
+        <a href="#"><h3>menu3</h3></a>
+      </li>
+    </div>
+
+    <div class="postcards"></div>
+
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="close"><span>&times;</span></div>
+        <div class="post-content"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="top.js"></script>
+    <script src="drawer.js"></script>
+    <script src="postcards.js"></script>
+    <script src="modal.js"></script>
+    <script src="switch.js"></script>
+  </body>
+</html>
