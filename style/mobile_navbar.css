@@ -1,16 +1,15 @@
-/*RESPONSIVE NAVBAR MENU STARTS*/
-/* CHECKBOX HACK */
+
 input[type="checkbox"] {
   display: none;
 }
-/*HAMBURGER MENU*/
+
 .hamburger {
   display: none;
   font-size: 24px;
   user-select: none;
   cursor: pointer;
 }
-/* APPLYING MEDIA QUERIES */
+
 @media (max-width: 768px) {
   .menu {
     display: none;

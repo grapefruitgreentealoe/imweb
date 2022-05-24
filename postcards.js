@@ -3,8 +3,8 @@ const modal_content = document.querySelector(".modal-content");
 const content = document.querySelector(".modal-content .post-content");
 
 for (i = 1; i < 21; i++) {
-  let div = document.createElement("DIV"); // Create a <button> element
-  let t = document.createElement("H1"); // Create a text node
+  let div = document.createElement("DIV");
+  let t = document.createElement("H1");
   let c = document.createElement("DIV");
   let t_inner;
   let c_inner;
@@ -32,6 +32,7 @@ for (i = 1; i < 21; i++) {
     content_text.style.display = "flex";
     content_text.style.flexDirection = "column";
     content_text.classList.add("text-content");
+
     let modal_postimg = postimg.cloneNode(true);
     let modal_t = t.cloneNode(true);
     let modal_c = c.cloneNode(true);

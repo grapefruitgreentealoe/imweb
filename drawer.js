@@ -1,5 +1,3 @@
-/* Set the width of the side navigation to 250px */
-
 const closebtn = document.querySelector(".sidenav .closebtn");
 const openbtn = document.querySelector(".hamburger");
 const background = document.querySelector(".sidenav_background");
@@ -11,7 +9,6 @@ function openNav() {
   background.style.display = "block";
 }
 
-/* Set the width of the side navigation to 0 */
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   background.style.display = "none";

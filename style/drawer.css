@@ -1,26 +1,25 @@
 .sidenav_background {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  display: none; 
+  position: fixed; 
+  z-index: 2;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.4); 
 }
 .sidenav {
-  z-index: 2; /* Sit on top */
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  top: 0; /* Stay at the top */
+  z-index: 3; 
+  height: 100%;
+  width: 0; 
+  position: fixed; 
+  top: 0; 
   left: 0;
   background-color: lightgrey;
   color: black;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  overflow-x: hidden;
+  padding-top: 60px; 
+  transition: 0.5s; 
 }
 
-/* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -30,12 +29,10 @@
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   text-decoration: underline;
 }
 
-/* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -46,7 +43,6 @@
   cursor: pointer;
 }
 
-/* On smaller screens, where height is less than 768px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-width: 768px) {
   .sidenav {
     padding-top: 15px;
