@@ -12,15 +12,16 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: rgb(151, 149, 149);
+  color: white;
 }
 
 body {
@@ -43,8 +44,8 @@ li {
 
   justify-items: flex-start;
   padding: 20px;
-  background-color: teal;
-  color: #fff;
+  background-color: rgb(200, 200, 200);
+  color: black;
 }
 .nav-links {
   justify-self: end;
@@ -53,9 +54,13 @@ li {
 .navbar .switch {
   justify-self: end;
 }
+.navbar-dark-mode {
+  background-color: black;
+  color: white;
+}
 
 .nav-links a {
-  color: #fff;
+  color: black;
 }
 /* LOGO */
 .logo {
@@ -67,11 +72,6 @@ li {
   display: flex;
   gap: 1em;
   font-size: 18px;
-}
-.menu li:hover {
-  background-color: #4c9e9e;
-  border-radius: 5px;
-  transition: 0.3s ease;
 }
 .menu li {
   padding: 5px 14px;
