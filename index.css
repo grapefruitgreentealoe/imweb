@@ -36,18 +36,22 @@ li {
 .navbar {
   width: 100%;
   height: 5rem;
-  display: flex;
+  display: grid;
   position: fixed;
   z-index: 1;
-  align-items: center;
-  justify-content: space-between;
+  grid-template-columns: 6fr 4fr 1fr;
+
+  justify-items: flex-start;
   padding: 20px;
   background-color: teal;
   color: #fff;
 }
-.navbar .navbar-right{
-  display: flex;
-  
+.nav-links {
+  justify-self: end;
+}
+
+.navbar .switch {
+  justify-self: end;
 }
 
 .nav-links a {
@@ -71,4 +75,14 @@ li {
 }
 .menu li {
   padding: 5px 14px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    grid-template-columns: 6fr 1fr;
+  }
+
+  .nav-links {
+    justify-self: start;
+  }
 }
